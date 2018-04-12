@@ -16,27 +16,34 @@ public class MailLayout {
     }
 
     private static void showComposeView() {
+
+        // Create and configure the parent window
         JFrame frame = new JFrame("New Message");
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setLayout(new GridLayout(0,1));
 
+        // Create and configure a panel to hold the to, cc, bcc, subject, and from fields
         JPanel topPanel = new JPanel();
         topPanel.setLayout(new BoxLayout(topPanel, BoxLayout.X_AXIS));
 
+        // Create and configure a panel to hold the content field and send button
         JPanel bottomPanel = new JPanel();
         bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.Y_AXIS));
 
+        // Create and configure a panel to hold and organize all of the labels on the left
         JPanel labelContainer = new JPanel();
         labelContainer.setLayout(new BoxLayout(labelContainer, BoxLayout.Y_AXIS));
         labelContainer.setSize(new Dimension(400, 200));
         labelContainer.setAlignmentY(Component.TOP_ALIGNMENT);
 
+        // Create a configure a panel to hold and organize all of the text fields on the right
         JPanel fieldContainer = new JPanel();
         fieldContainer.setLayout(new BoxLayout(fieldContainer, BoxLayout.Y_AXIS));
         fieldContainer.setMaximumSize(new Dimension(400, 200));
         fieldContainer.setAlignmentY(Component.TOP_ALIGNMENT);
 
+        // Create a set of utility dimensions to apply to each of the GUI elements
         Dimension textFieldDimension = new Dimension();
         textFieldDimension.setSize(150, 5);
         Dimension labelDimension = new Dimension();
