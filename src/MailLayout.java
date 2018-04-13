@@ -1,4 +1,11 @@
-//  Created by Justin on 4/11/18
+//  Justin Raczak
+// CSCI E-10b (24027)
+// Pset6
+
+/*
+This program mimics a very basic email GUI and with basic text fields and prints the
+"sent" message to an output file called outbox.txt.
+ */
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;

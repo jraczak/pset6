@@ -1,6 +1,10 @@
-//  Justin Raczak
-//
+// Justin Raczak
+// CSCI E-10b (24027)
+// Pset6
 
+/*
+This program demonstrates simple use of Java GUI elements by responding to a user's age
+ */
 import javax.swing.*;
 
 public class Age {

@@ -1,3 +1,12 @@
+// Justin Raczak
+// CSCI E-10b (24027)
+// Pset6
+
+/*
+This program functions as a basic calculator similar to those found on Windows and Mac
+computers. THIS PROGRAM IS INCOMPLETE.
+ */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -45,7 +54,7 @@ public class Calculator extends JFrame{
         JButton bAdd = new JButton("+");
         JButton bEquals = new JButton("=");
 
-        //TODO: Set this up programmatically
+        //TODO: Set button listener assignment programmatically
         b5.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

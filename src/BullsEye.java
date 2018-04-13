@@ -1,4 +1,11 @@
-//  Created by Justin on 4/12/18
+//  Justin Raczak
+//  CSCI E-10b (24027)
+//  Pset 6
+
+/*
+This program demonstrates Java GUI elements by drawing a simple bullseye target using
+Graphics.
+ */
 
 import javax.swing.*;
 import java.awt.*;

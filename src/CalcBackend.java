@@ -1,3 +1,12 @@
+// Justin Raczak
+// CSCI E-10b (24027)
+// Pset6
+
+/*
+This is the backend code accompanying Calculator.java, which mimics the functionality
+of a desktop calculator.
+ */
+
 public class CalcBackend {
 
     private Calculator calculator;
